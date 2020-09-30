@@ -1,0 +1,167 @@
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+html, body {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+header {
+  width: 100%;
+  height: 50px;
+  background: #fff;
+  position: top;
+  top: 0;
+  padding: 3%;
+  -webkit-box-shadow: 0 0 5px gray;
+          box-shadow: 0 0 5px gray;
+}
+
+header nav {
+  color: purple;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.bottom {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-flow: row wrap;
+          flex-flow: row wrap;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.bottom form {
+  width: 70%;
+  position: fixed;
+  bottom: 0;
+}
+
+.bottom form input[type=text] {
+  width: 75%;
+  height: 35px;
+  outline: none;
+  border: 0.5px solid rgba(85, 9, 100, 0.801);
+  border-radius: 7px;
+  -webkit-border-radius: 7px;
+  -moz-border-radius: 7px;
+  -ms-border-radius: 7px;
+  -o-border-radius: 7px;
+  padding-left: 5px;
+}
+
+.bottom form button {
+  width: 50px;
+  position: relative;
+  left: -60px;
+}
+
+.intro {
+  width: 40%;
+  background: rgba(150, 145, 145, 0.192);
+  padding: 3%;
+  margin: 2% 5%;
+  border-radius: 7px;
+  -webkit-border-radius: 7px;
+  -moz-border-radius: 7px;
+  -ms-border-radius: 7px;
+  -o-border-radius: 7px;
+}
+
+.tab {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+.tab .bot {
+  background: rgba(148, 11, 175, 0.5);
+  width: auto;
+  max-width: 150px;
+  word-wrap: break-word;
+  border-radius: 7px;
+  -webkit-border-radius: 7px;
+  -moz-border-radius: 7px;
+  -ms-border-radius: 7px;
+  -o-border-radius: 7px;
+  margin-top: 2%;
+  position: relative;
+  clear: both;
+  left: 60%;
+  margin-right: 4%;
+}
+
+.tab .bot p {
+  display: block;
+  padding: 10px;
+  color: #fff;
+}
+
+@media screen and (max-width: 500px) {
+  header {
+    width: 100%;
+    height: 50px;
+    background: #fff;
+    border-bottom: 1px solid purple;
+    position: top;
+    top: 0;
+    padding: 3%;
+  }
+  .bottom {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-flow: row wrap;
+            flex-flow: row wrap;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+  }
+  .bottom form {
+    width: 70%;
+    position: fixed;
+    bottom: 0;
+  }
+  .bottom form input[type=text] {
+    width: 75%;
+    height: 35px;
+    outline: none;
+    border: 0.5px solid rgba(85, 9, 100, 0.801);
+    border-radius: 7px;
+    -webkit-border-radius: 7px;
+    -moz-border-radius: 7px;
+    -ms-border-radius: 7px;
+    -o-border-radius: 7px;
+    padding-left: 5px;
+  }
+  .bottom form button {
+    width: 50px;
+    position: relative;
+    left: -60px;
+  }
+  .tab {
+    margin-right: 15%;
+  }
+}
+/*# sourceMappingURL=main.css.map */
