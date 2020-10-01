@@ -1,4 +1,4 @@
-    //formn action
+    //form action
     var show;
 const form=document.querySelector('form');
     form.onsubmit=ev=>ev.preventDefault();
@@ -34,7 +34,7 @@ const form=document.querySelector('form');
                      
                       setTimeout(()=>{
                         //now action
-                        const botAns=['My name is obisBot, what\'s yours ?'];
+                        const botAns=["My name is obisBot, what's yours?"];
                        const dis=botAns[Math.floor(Math.random()*botAns.length)];
                       
                         const reply= `
@@ -97,7 +97,7 @@ const form=document.querySelector('form');
                       //answer
                       setTimeout(()=>{
 
-                        const botAns=['do you think am a robot ?','am a guy you can rock around with do you think am a robot ?'];
+                        const botAns=['do you think i am a robot ?','am a guy you can rock around with do you think am a robot ?'];
                         dis=botAns[Math.floor(Math.random()*botAns.length)];
                       
                         const reply= `
@@ -115,7 +115,7 @@ const form=document.querySelector('form');
                       //answer
                       setTimeout(()=>{
 
-                        const botAns=['its hot over here ','it cold over here','its raining over here dude'];
+                        const botAns=['it is hot over here ','it is cold over here','it is raining over here dude'];
                         dis=botAns[Math.floor(Math.random()*botAns.length)];
                       
                         const reply= `
@@ -134,7 +134,7 @@ const form=document.querySelector('form');
                       //answer
                       setTimeout(()=>{
 
-                        const botAns=['ooh but am too friendly so why will you hate me ?'];
+                        const botAns=['ooh, but i am too friendly so why will you hate me ?'];
                         dis=botAns[Math.floor(Math.random()*botAns.length)];
                       
                         const reply= `
@@ -184,12 +184,12 @@ const form=document.querySelector('form');
                     }
 
                     //dont
-                    else if (/(guess|i dont)/ig.test(reg)) {
+                    else if (/(guess|i do not)/ig.test(reg)) {
 
                       //answer
                       setTimeout(()=>{
 
-                        const botAns=['ooh we can play around then ',' guessing is like a puzzle'];
+                        const botAns=['ooh, we can play around then ',' guessing is like a puzzle'];
                         dis=botAns[Math.floor(Math.random()*botAns.length)];
                       
                         const reply= `
@@ -231,7 +231,7 @@ const form=document.querySelector('form');
                       //answer
                       setTimeout(()=>{
 
-                        const botAns=['wow, How does it feels like having a lover  ','i dont have  a lover cause am shy'];
+                        const botAns=['wow!, How does it feels like having a lover  ','i dont have  a lover cause am shy'];
                         dis=botAns[Math.floor(Math.random()*botAns.length)];
                       
                         const reply= `
